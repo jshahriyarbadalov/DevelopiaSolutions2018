@@ -1,5 +1,6 @@
 package solutions.controller.login;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -16,7 +17,12 @@ import java.util.ResourceBundle;
 public class LoginController implements Initializable {
 
 
+    @FXML
+    void okButtonPressed(ActionEvent event) {
 
+
+
+    }
 
     // bu komponent login pəncərəsində hər hansı məlumatın istifadəçiyə çatdırılması üçündür.
     @FXML
